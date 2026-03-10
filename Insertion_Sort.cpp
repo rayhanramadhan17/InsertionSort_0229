@@ -38,3 +38,11 @@ void insertionsort() { // procedure insertion sort
             j--;
         }
         arr[j + 1] = temp; // tempatkan nilai temp di posisi yang benar
+
+                // Menampilkan langkah-langkah pengurutan (step-by-step)
+        cout << "\nStep " << i << ": ";
+        for (int k = 0; k < n; k++) {
+            cout << arr[k] << " ";
+        }
+    }
+}
